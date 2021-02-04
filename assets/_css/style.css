@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Londrina Solid";
+  src: url(../_fonts/LondrinaSolid-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.container {
+  margin-top: 15px;
+  display: flex;
+}
+.logo,
+.links {
+  flex: 1;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+}
+
+.links li {
+  padding: 0px 10px 0px 10px;
+}
+
+.links a {
+  color: #000;
+  text-decoration: none;
+  font-family: "Londrina Solid";
+  font-weight: 300;
+  font-size: 24px;
+}
+
+.logo img {
+  border-radius: 50%;
+  height: 90px;
+}
